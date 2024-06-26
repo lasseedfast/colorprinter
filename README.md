@@ -19,7 +19,8 @@ To use this module, simply import it and call the desired function with the text
 from print_color import print_green, print_rainbow
 
 print_green("This is in green!")
-print_rainbow("This", "will", "be", "in", "multiple", "colors!")```
+print_rainbow("This", "will", "be", "in", "multiple", "colors!")
+```
 
 Alternatively, you can import all functions at once using from print_color import *. However, be cautious when using this approach as it imports all public names defined in the module, which can lead to conflicts with other modules or variables in your namespace.*
 

@@ -1,6 +1,7 @@
 # Colorful Print Utility
 
-This Python module provides a simple utility for printing text in various colors to the terminal. It supports printing in green, red, yellow, blue, and purple, as well as a special "rainbow" mode that cycles through colors for each argument.
+This Python module provides a simple utility for printing text in various colors to the terminal. It supports printing in green, red, yellow, blue, and purple, as well as a special "rainbow" mode that cycles through colors for each argument.  
+Use it as as you normaly use ```print()```.
 
 ## Functions
 

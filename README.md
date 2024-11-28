@@ -16,14 +16,18 @@ Use it as as you normaly use ```print()```.
 
 To use this module, simply import it and call the desired function with the text you want to print as arguments. Here's an example:
 
+`git clone https://github.com/lasseedfast/colorprinter`
+
+This will clone this repo as a folder to your computer. When you want to use the colorprinter, make sure that folder is in the same folder as you're working. Then you can use it like:
+
 ```python
-from print_color import print_green, print_rainbow
+from colorprinter.print_color import print_green, print_rainbow
 
 print_green("This is in green!")
 print_rainbow("This", "will", "be", "in", "multiple", "colors!")
 ```
 
-Alternatively, you can import all functions at once using from print_color import *. However, be cautious when using this approach as it imports all public names defined in the module, which can lead to conflicts with other modules or variables in your namespace.*
+Alternatively, you can import all functions at once using from print_color import \*. However, be cautious when using this approach as it imports all public names defined in the module, which can lead to conflicts with other modules or variables in your namespace.*
 
 ## Customization
 The colors are defined using ANSI escape codes. You can modify the choose_color function or the color codes within each print function if you wish to customize the colors.

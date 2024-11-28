@@ -32,5 +32,5 @@ The colors are defined using ANSI escape codes. You can modify the choose_color 
 This module uses standard Python libraries only and should work on any system that supports Python and ANSI escape codes for terminal colors.
 
 ## License
-This project is open-sourced under the MIT License. Feel free to use, modify, and distribute as you see fit. ```
+This project is open-sourced under the MIT License. Feel free to use, modify, and distribute as you see fit.
 
